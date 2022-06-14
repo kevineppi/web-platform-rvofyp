@@ -1,17 +1,20 @@
-<html>
-  <head>
+<!DOCTYPE html>
+<html lang="en">
+<head>
     <meta charset="UTF-8">
-    <script src="script.js"></script>
-    <!-- <link rel="stylesheet" type="text/css" href="styles.css"> -->
-  </head>
-  <body>
-  <p><font size = 5><b>Patientenkartei</b> </font size>  </p>
-    <br> 
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Document</title>
+</head>
+<body>
 
-    <a href="https://de.wikipedia.org/wiki/John_Doe">von Dr. John Doe</a>
-    <br>
-    <a href="mailto:john.doe@xxx.com">email: john.doe@xxx.com</a>
-    <hr>
-    <a><b> Patientenliste <b></a>
-  </body>
+    <form id="form" action="http://localhost:8080/F_G_Uebung_Service/test2" method="POST">
+      <label for="fname">First name:</label><br>
+      <input type="text" id="fname" name="fname"><br>
+      <label for="lname">Last name:</label><br>
+      <input type="text" id="lname" name="lname">
+      </form>
+      
+    <script src="./script.js"></script>
+</body>
 </html>
